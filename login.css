@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;  
+}
+
+body{
+    background: url(./imagens/blog.png);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+.container{
+    width: 420px;
+    background: transparent;
+    border: 2px solid blue;
+    backdrop-filter: blur (20px) ;
+    border-radius: 10px;
+    padding: 30px 40px;
+    
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    color: rgb(0, 0, 255);
+}
+.input-container{
+   position: relative; 
+   width: 100%;
+   height: 50px;
+   margin: 30px 0;
+}
+
+.input-container input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-container input::placeholder{
+    color: rgb(0, 0, 255);
+}
+.input-container img{
+    position: absolute;
+    right: 22px;
+    top: 15px;
+    margin-top: 5px;
+}
+.input-container a {
+    font-size: 16px;
+    margin-top: 5px;
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+
+}
+.input-container a:hover{
+    text-decoration: underline;
+}
+.submit-button{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 191, 255);
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+}
+.submit-button:hover{
+    background-color:rgb(64, 0, 255);   
+
+}
+.resgistrar p {
+    font-size: 16px;
+    color:rgb(0, 0, 255);
+    font-weight: 500;
+}
+.resgistrar{
+    text-align: center;
+    margin: 20px 0;
+}
+    
+.resgistrar p a {
+    font-size: 16px;
+    color: rgb(0, 0, 255);
+    font-weight: 700;
+    text-decoration: none;
+}
+.resgistrar p a:hover{
+    text-decoration: underline;
+
+}
+footer {
+    height: 80px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
